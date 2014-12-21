@@ -1,8 +1,6 @@
 ---
 title: "Code Book"
 author: "Ricardo Quintana"
-date: "20 Dec 2014"
-output: html_document
 ---
 # ID variables
 
