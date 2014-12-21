@@ -1,8 +1,6 @@
 ---
 title: "README"
 author: "Ricardo Quintana"
-date: "20 Dec 2014"
-output: html_document
 ---
 
 # run_analysis.R
@@ -46,10 +44,11 @@ The script produces 2 output files to the working directory:
 
 + totalData.txt : Tidy dataset with all the mean and standard deviation values from the 
 original source. As per completion of __step 4__ in the procedure. File contains 88 columns.
-+ totalAveWide.txt : Reduced tidy dataset with the average of the values measured (mean and std as in totalData.txt) for each _activity_ of each _subjectID_. File contains 88 columns and $30 (subject) * 6 (activities) = 180 rows$.
++ totalAveWide.txt : Reduced tidy dataset with the average of the values measured (mean and std as in totalData.txt) for each _activity_ of each _subjectID_. File contains 88 columns and 30 (subject) * 6 (activities) = 180 rows.
 
 ## Run
 The script was tested from the R console by sourcing it in the local environment and from the darwin (OSX Mavericks) terminal as follows:
+
 In R console:
 ```
 > getwd()
